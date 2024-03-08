@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">            
+    <title>Happy Women's Day!</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Poppins:300);
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: rgb(249, 223, 227);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #birthday-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 50px auto;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: rgb(8, 8, 39);
+        }
+
+        #birthday-message {
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+
+        #birthday-gif {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        #birthday-button {
+            background-color: pink;
+            color: black;
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        #balloon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation: floatAnimation 5s infinite alternate;
+    }
+
+    @keyframes floatAnimation {
+      0% {
+        transform: translate(-50%, -50%) translateY(0);
+      }
+      100% {
+        transform: translate(-50%, -50%) translateY(-20px);
+      }
+    }
+    </style>
+</head>
+<body>
+    <div id="birthday-container">
+        <h1>Happy Women's Day, Nadila!</h1>
+        <div id="birthday-message">
+            <p>Thank you for being kind and amazing!</p>
+        </div>
+        <img id="birthday-gif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGJ2YWltaGplZmFwdXZrenZ3aHgyYm1idm94aThzZXN0bW8zdWZ2dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/108M7gCS1JSoO4/giphy.gif" alt="Birthday Celebration">
+        <button id="birthday-button" onclick="showWish()">Push This Button</button>
+    </div>
+
+    <script src="js.js">
+        function showWish() {
+            alert("Happy Women's Day! ( ̳• · • ̳) / づ♡ Sending you lots of love and good vibes ! Terimakasih sudah menjadi teman yang baik, rajin nan unik. Semoga skripsi kita lancar, lulus bareng, suskes bareng ya! See you on top :) ! xoxo, depica");
+        }
+    </script>
+</body>
+</html>
